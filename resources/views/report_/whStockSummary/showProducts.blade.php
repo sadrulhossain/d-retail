@@ -1,0 +1,2 @@
+{!! Form::select('product[]', $productArr, [], ['class' => 'form-control mt-multiselect btn btn-default', 'id' => 'product', 'multiple' => 'multiple', 'data-width' => '100%']) !!}
+<span class="text-danger">{{ $errors->first('product') }}</span>

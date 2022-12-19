@@ -1,0 +1,1 @@
+{!! Form::select('sku', $productSkuArr, null, ['class' => 'form-control js-source-states', 'id' => 'sku']) !!}

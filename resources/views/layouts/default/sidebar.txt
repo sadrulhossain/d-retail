@@ -1,0 +1,23 @@
+<!--                            @if(!empty($userAccessArr[91][1]))
+                            <li <?php $current = ( in_array($controllerName, array('producttobrand'))) ? 'start active open' : ''; ?>class="nav-item {{$current}} nav-item ">
+                                <a href="{{url('/productToBrand')}}" class="nav-link ">
+                                    <span class="title">@lang('label.PRODUCT_TO_BRAND')</span>
+                                </a>
+                            </li>
+                            @endif
+
+                            @if(!empty($userAccessArr[92][1]))
+                            <li <?php $current = ( in_array($controllerName, array('producttoattribute'))) ? 'start active open' : ''; ?>class="nav-item {{$current}} nav-item ">
+                                <a href="{{url('/productToAttribute')}}" class="nav-link ">
+                                    <span class="title">@lang('label.PRODUCT_TO_ATTRIBUTE')</span>
+                                </a>
+                            </li>
+                            @endif
+
+                            @if(!empty($userAccessArr[96][1]))
+                            <li <?php $current = ( in_array($controllerName, array('productskucode'))) ? 'start active open' : ''; ?>class="nav-item {{$current}} nav-item ">
+                                <a href="{{url('/productSKUCode')}}" class="nav-link ">
+                                    <span class="title">@lang('label.PRODUCT_SKU_CODE')</span>
+                                </a>
+                            </li>
+                            @endif-->
